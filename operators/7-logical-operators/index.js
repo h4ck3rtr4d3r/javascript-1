@@ -1,9 +1,8 @@
 
-// If a customer has more than 1100 points,
-// they are a gold customer, otherwise,
-// they are a silver customer.
+let highInconme = false;
+let goodCreditScore = false;
+let eligibleForLoan = highInconme || goodCreditScore;
+console.log('Eligible', eligibleForLoan);
 
-let points = 110;
-let type = points > 100 ? 'gold' : 'silver';
-
-console.log(type);
+let applicationRefused = !eligibleForLoan;
+console.log('Application Refused', applicationRefused);
