@@ -1,8 +1,9 @@
 
 // Hour
-// If hour is between 6am and 12pm: Good morning!
-// If it is between 12pm and 6pm: Good afternoon!
-// Otherwise: Good evening!
+// If hour is between 6am and 12pm: Good morning
+// If it is between 12pm and 6pm: Good afternoon
+// If it is between 18pm and 24am: Good evening
+// Otherwise: Go back to sleep
 
 let hour = 3;
 
