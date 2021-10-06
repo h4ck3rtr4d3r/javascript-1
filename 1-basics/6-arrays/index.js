@@ -1,5 +1,4 @@
-
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 7;
+let selectedColors = ["red", "blue"];
+selectedColors[2] = "green";
 console.log(selectedColors.length);
-
+console.log(selectedColors);
