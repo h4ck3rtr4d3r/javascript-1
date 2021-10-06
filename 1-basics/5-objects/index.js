@@ -5,6 +5,7 @@ let person = {
   name: "hacker",
   age: 30,
 };
+
 // Dot Notation -> default choice.
 person.name = "John";
 person.age = 42;
