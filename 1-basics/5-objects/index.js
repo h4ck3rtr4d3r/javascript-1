@@ -1,13 +1,13 @@
 //Reference Types: Object, Array, Function
 
-
+// Object Literal
 let person = {
-    name: 'hacker',
-    age: 30
+  name: "hacker",
+  age: 30,
 };
 // Dot Notation -> default choice.
-person.name = 'John';
-person.age = 42
+person.name = "John";
+person.age = 42;
 
 // Bracket Notation
 // person['name'] = 'Mary';
