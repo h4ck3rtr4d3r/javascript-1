@@ -1,20 +1,29 @@
+// In JS with have two types of conditional statements:
+// If..else and Switch...case
 
-// Hour
-// If hour is between 6am and 12pm: Good morning
-// If it is between 12pm and 6pm: Good afternoon
-// If it is between 18pm and 24am: Good evening
-// Otherwise: Go back to sleep
+// If hour is beween 6am and 12pm: Good morning!
+// If it is between 12pm and 6pm: Good afternoon!
+// Oherwise: Good evening
 
-let hour = 3;
+// if (hour >= 6 && hour < 12) {
+//   console.log(morning);
+// } else if (hour >= 12 && hour <= 18) {
+//   console.log(afternoon);
+// } else if (hour >= 0 && hour <= 5) {
+//   console.log(backToBed);
+// } else {
+//   console.log(evening);
+// }
 
-if (hour >= 6 && hour < 12) 
-    console.log('Good Morning');
-
-else if (hour >= 12 && hour < 18) 
-    console.log('Good Afternoon');
-
-else if (hour >= 18 && hour < 24)    
-    console.log('Good Evening');
-else
-    console.log('Go back to sleep');
-
+function message(time) {
+  if (time >= 6 && time < 12) {
+    return "Bom dia!";
+  } else if (time >= 12 && time <= 18) {
+    return "Boa tarde!";
+  } else if (time >= 0 && time <= 5) {
+    return "Volte para a cama";
+  } else {
+    return "Boa noite!";
+  }
+}
+console.log(message(21));
