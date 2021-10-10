@@ -16,14 +16,9 @@
 // }
 
 function message(time) {
-  if (time >= 6 && time < 12) {
-    return "Bom dia!";
-  } else if (time >= 12 && time <= 18) {
-    return "Boa tarde!";
-  } else if (time >= 0 && time <= 5) {
-    return "Volte para a cama";
-  } else {
-    return "Boa noite!";
-  }
+  if (time >= 6 && time < 12) return "Bom dia!";
+  else if (time >= 12 && time <= 18) return "Boa tarde!";
+  else if (time >= 0 && time <= 5) return "Volte para a cama!";
+  else return "Boa noite!";
 }
-console.log(message(21));
+console.log(message(3));
