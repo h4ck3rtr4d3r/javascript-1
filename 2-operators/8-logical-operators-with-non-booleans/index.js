@@ -1,9 +1,8 @@
-
 // Falsy (false)
 // undefined
 // null
 // 0
-// flase
+// false
 // ''
 // NaN
 
@@ -11,8 +10,8 @@
 
 //Short-circuiting
 
-let userColor = 'red';
-let defaultColor = 'blue';
+let userColor = "red";
+let defaultColor = "blue";
 let currentColor = userColor || defaultColor;
 
 console.log(currentColor);
